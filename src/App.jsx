@@ -11,7 +11,7 @@ const App = () => {
      </section>
       <section className='right'>
          
-            <section>
+            <section className='Search'>
                <Search/>
             </section>
          

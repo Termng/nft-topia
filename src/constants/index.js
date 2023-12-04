@@ -48,13 +48,13 @@ export const sidebar = [
 export const CardWallet = [
     {
         Name: "Revenue",
-        Amount: 5.00,
+        Amount: 5.50,
         Percentage: 12.3,
         symbol: arrowUp
     },
     {
         Name: "Spending",
-        Amount: 2.00,
+        Amount: 2.01,
         Percentage: 8.1,
         symbol: arrowUp
     },
@@ -66,7 +66,7 @@ export const CardWallet = [
     },
     {
         Name: "Investment",
-        Amount: 7.00,
+        Amount: 7.30,
         Percentage: 3.2,
         symbol: arrowUp
     }

@@ -1,0 +1,75 @@
+:root{
+    --text-color: #514f4f;
+    --accent-color: #5429FF
+}
+
+
+.search_bar{
+    display: flex;
+    align-items: center;
+    gap: 29rem;
+    justify-content: space-evenly;
+}
+
+
+  .searchbox_icon{
+    display: flex;
+    gap: 2rem;
+}
+
+.searchbox{
+    width: 461px;
+    height: 56px;
+    border-radius: 50px;
+    border: 0.1px solid rgb(110, 110, 110);
+    padding-inline:  2rem;
+
+}
+
+.searchbox::placeholder{
+   font-weight: 200;
+}
+
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+
+.user_creator{
+    display: flex;
+    gap: 2rem;
+}
+
+.user_creator p{
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.user_creator p:first-child{
+    color: var(--accent-color);
+}
+
+
+.not_prof{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.circle_profile{
+    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
+}
+
+.circle_profile img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

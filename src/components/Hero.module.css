@@ -1,0 +1,114 @@
+:root{
+    --text-color: #514f4f;
+    --accent-color: #5429FF
+}
+
+.container{
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+
+
+.box_container{
+    max-width: 716px;
+    height: 354px;
+    background-color: green;
+    border-radius: 9px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+
+
+}
+
+.box_container p{
+    font-size: 3rem;
+    color: white;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+
+
+.hero_button{
+    display: flex;
+    gap: 2rem;
+}
+
+.hero_button a {
+    display: block; 
+    text-decoration: none;
+    padding: .8rem 3rem;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+}
+
+.hero_button a:first-child{
+    background-color: white;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+
+/* THIS IS FOR STYLING THE WALLET CARD */
+.box_flex{
+    max-width: 428px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box{
+    max-width: 164px;
+    height: 167px;
+    /* background-color: var(--accent-color); */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    padding-inline: 2rem ;
+    flex: 1 0 auto;
+    border-radius: 8px;
+
+}
+
+.category_amount{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.category{
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.etherText{
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+}
+
+.etherText p{
+    font-size: 1.4rem;
+}
+
+.etherText p span{
+    font-size: .6rem;
+    font-weight: 200;
+    color: var(--text-color);
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    color: var(--text-color);
+}

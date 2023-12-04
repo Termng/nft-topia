@@ -111,7 +111,7 @@ main{
   position: fixed;
   top: 0;
   overflow-y: auto;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .nav-all{
@@ -150,6 +150,6 @@ main{
 }
 
 
-.imageBox{
-  background-color: green;
+.Search{
+  padding-block:1.4rem;
 }
