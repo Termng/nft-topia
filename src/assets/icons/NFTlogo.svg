@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1637.63 610.46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 111.21px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #6c6d6d;
+      }
+
+      .cls-3 {
+        fill: #5429ff;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-size: 362.76px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5, .cls-6 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1900" y1="2871.91" x2="2107.42" y2="2871.91" gradientTransform="translate(-2791.28 2241.63) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#8a2eab"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-3150.86" y1="2304.62" x2="-2943.45" y2="2304.62" gradientTransform="translate(2986.98 3419.7) rotate(90)" xlink:href="#linear-gradient"/>
+  </defs>
+  <g class="cls-8">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="graphics">
+        <g>
+          <path class="cls-3" d="M161.26,134.59h158.58l123.31,120.01V0H139.61C62.51,0,0,62.5,0,139.61V470.85c0,77.11,62.51,139.61,139.61,139.61h21.65V134.59Z"/>
+          <path class="cls-3" d="M623.38,0h-21.66V475.86h-158.58l-123.31-120.01v254.6h303.54c77.1,0,139.61-62.5,139.61-139.61V139.61C762.99,62.5,700.49,0,623.38,0Z"/>
+          <path class="cls-6" d="M0,354.68H161.26V134.59h-45.87C51.66,134.59,0,186.25,0,249.98v104.7Z"/>
+          <path class="cls-5" d="M762.99,255.78h-161.26v220.09h45.88c63.73,0,115.39-51.66,115.39-115.38v-104.7Z"/>
+        </g>
+        <text class="cls-2" transform="translate(880.19 375.82)"><tspan x="0" y="0">N</tspan><tspan class="cls-9" x="292.38" y="0">F</tspan><tspan class="cls-7" x="527.09" y="0">T</tspan></text>
+        <text class="cls-1" transform="translate(903.97 535.3)"><tspan class="cls-4" x="0" y="0">Z</tspan><tspan x="71.4" y="0">ONE</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
