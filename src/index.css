@@ -122,7 +122,18 @@ main{
   margin-left: 2rem;
 }
 
+nav{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
 
+
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 .flexbar{
   list-style: none;
@@ -130,7 +141,7 @@ main{
   margin: 0; 
   display: flex;
   flex-direction: column;
-  gap: 2.3rem;
+  gap: 2rem;
 }
 
 .flexbar-list{
@@ -149,6 +160,77 @@ main{
 .flexbar-icon img {
   margin-right: 8px; /* Adjust the margin between icon and label */
 }
+
+
+.nav-card{
+  width: 228px;
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  gap: 1rem;
+  background-image: url(./assets/images/balancebg.png);
+  background-size: cover;
+}
+
+.nav-card h2{
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-card p{
+  color: white;
+}
+ 
+
+.ether_logo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ether_logo p{
+  color: white;
+  font-weight: 600;
+}
+
+.whitebox{
+  width: fit-content;
+  background-color: white;
+  padding: .6rem 1rem;
+  border-radius: 10px;
+}
+
+.whitebox a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+.ethercircle{
+  width: 10px;
+  filter: grayscale();
+}
+
+.circle{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.purple{
+  background-color: var(--accent-color);
+}
+
 
 
 .Search{

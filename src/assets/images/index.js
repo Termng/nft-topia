@@ -15,6 +15,7 @@ import scrow from './scrow.jpg'
 import skull from './skull.jpg'
 import warthog from './warthog.jpg'
 import gradient from './gradient.png'
+import balancebg from './balancebg.png'
 
 
 
@@ -58,7 +59,8 @@ export{
     creator8,
     creator9,
     creator10,
-    gradient
+    gradient,
+    balancebg
     
 
 }

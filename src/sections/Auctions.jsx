@@ -7,23 +7,29 @@ import { auctions } from '../constants'
 const Auctions = () => {
   return (
     <div>
-
-      <div className={style.uppercat}>
-        <h2>Trending Auctions</h2>
-        <div className={style.cat}>
-          <p>Art</p>
-          <p>Music</p>
-          <p>Collectibles</p>
-          <p>Utility</p>
+  <div>
+  
+        <div className={style.uppercat}>
+          <h2>Trending Auctions</h2>
+          <div className={style.cat}>
+            <p>Art</p>
+            <p>Music</p>
+            <p>Collectibles</p>
+            <p>Utility</p>
+          </div>
         </div>
-      </div>
+  
+  
+        <div className={style.card_flex}>
+          {auctions.map((prods) => (
+            <Product key={prods.Likes} {...prods}/>
+          ))}
+        </div>
+</div>
 
 
-      <div className={style.card_flex}>
-        {auctions.map((prods) => (
-          <Product key={prods.Likes} {...prods}/>
-        ))}
-      </div>
+
+      This is the creators section oo
 
 
      

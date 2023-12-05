@@ -13,6 +13,7 @@ import search from './search.svg'
 import settings from './settings.svg'
 import wallet from './wallet.svg'
 import logo from './NFTlogo.svg'
+import plus from './plus.svg'
 
 
 export {
@@ -30,5 +31,6 @@ export {
     search,
     settings,
     wallet,
-    logo
+    logo,
+    plus
 }
