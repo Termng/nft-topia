@@ -20,12 +20,13 @@ const App = () => {
             </section>
          
       
-            <section className='productSizing'>
-               <Auctions/>
-            </section>
-         
-            <section>
-               <Creator/>
+            <section className='below_hero'>
+               <section className='productSizing'>
+                  <Auctions/>
+               </section>
+               <section>
+                  <Creator/>
+               </section>
             </section>
       </section>
 

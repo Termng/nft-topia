@@ -36,7 +36,7 @@
 
 .card{
     max-width: 348px;
-    height: 364px;
+    min-height: 364px;
     /* background-color: green; */
     border-radius: 10px;
     display: flex;
@@ -131,4 +131,14 @@
 .ether_price p span{
     font-weight: 300;
     font-size: .9rem;
+}
+
+
+@media (max-width: 1210px) {
+    .card_flex{
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red; */
+    }
+    
 }

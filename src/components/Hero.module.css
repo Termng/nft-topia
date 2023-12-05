@@ -65,9 +65,9 @@
 
 /* THIS IS FOR STYLING THE WALLET CARD */
 .box_flex{
-    max-width: 428px;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 508px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
 
@@ -119,3 +119,41 @@
     padding-left: 1rem;
     color: var(--text-color);
 }
+
+
+/* MEDIA QUERIES HERE */
+
+@media (max-width: 1550px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+}
+@media (max-width: 1226px) {
+    .box_flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+    .box_flex{
+        flex-wrap: wrap;
+        
+    }
+
+    
+}
+
+
+
+

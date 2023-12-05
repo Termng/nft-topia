@@ -7,7 +7,7 @@ import WalletCard from '../components/WalletCard'
 
 const Hero = () => {
   return (
-    <div>
+    <div className={style.hero_section}>
       <div className={style.container}>
         <div className={style.box_container}>
           <p>Discover, Create and Sell Your Own NFT.</p>

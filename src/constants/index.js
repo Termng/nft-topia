@@ -161,66 +161,58 @@ export const auctions =[
 
 
 
-// CryptoCanvasCreator
-// PixelPioneerX
-// NFTVisionaryVibe
-// EtherArtistEve
-// DigiArtEnthusiast
-// TokenTroveTinker
-// VirtualVividVibes
-// BlockchainBrush
-// ArtEonExplorer
 
-const myCreators = [
+
+export const myCreators = [
    { 
     Name: "Michael Knowles",
     Username: 'ArtfulAdventurer',
     ProfilePic: creator10
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "David Martinez",
+    Username: 'CryptoCanvasCreator',
+    ProfilePic: creator9
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Michael Rodriguez",
+    Username: 'ArtEonExplorer',
+    ProfilePic: creator8
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Christopher Lee",
+    Username: 'BlockchainBrush',
+    ProfilePic: creator7
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Matthew Scott",
+    Username: 'TokenTroveTinker',
+    ProfilePic: creator6
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: " Ethan Williams",
+    Username: 'VirtualVividVibes',
+    ProfilePic: creator5
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Anna Walker",
+    Username: 'DigiArtEnthusiast',
+    ProfilePic: creator
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Kamal Mohammed",
+    Username: 'EtherArtistEve',
+    ProfilePic: creator4
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Devine Scott",
+    Username: 'PixelPioneer',
+    ProfilePic: creator3
    },
    { 
-    Name: "Michael Knowles",
-    Username: 'ArtfulAdventurer',
-    ProfilePic: creator10
+    Name: "Emily Johnson",
+    Username: 'NFTVisionaryVibe',
+    ProfilePic: creator2
    },
   
 

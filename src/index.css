@@ -103,6 +103,12 @@ main{
 }
 
 
+.right{
+
+  overflow-x:hidden;
+}
+
+
 /* THIS IS FOR THE SIDE NAVIGATION */
 
 .sidenav{
@@ -111,7 +117,6 @@ main{
   position: fixed;
   top: 0;
   overflow-y: auto;
-  /* background-color: red; */
 }
 
 .nav-all{
@@ -237,7 +242,37 @@ nav{
   padding-block:1.4rem;
 }
 
+.below_hero{
+  display: flex;
+  align-items: first baseline;
+  gap: 2rem;
+}
 
 .productSizing{
   max-width: 800px;
 }
+
+
+@media (max-width: 1550px) {
+  .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexbar-icon p{
+    display: none;
+  }
+  .nav-card{
+    display: none;
+  }
+  .sidenav{
+    position: relative;
+    display: none;
+  }
+  main{
+    gap: 0.1rem;
+  }
+}
+
+
