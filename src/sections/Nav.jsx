@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { sidebar } from '../constants'
-import { index, logo, search } from '../assets/icons'
+import { index, logo, search, ether, plus } from '../assets/icons'
 
 const Nav = () => {
   return (
@@ -11,7 +11,7 @@ const Nav = () => {
         src={logo}
         alt="nft logo"
         className='logo'
-        width={120}
+        width={80}
         height={90}
         
         />
@@ -26,12 +26,29 @@ const Nav = () => {
               </li>
             ))}
           </ul>
+
+          <div className='nav-card'>
+            <p>Your Balance</p>
+            <h2>1,034.02</h2>
+
+            <div className='ether_logo'>
+              <div className='circle'><img className='ethercircle' src={ether} alt="etherlogo"/></div>
+              <p>ETH</p>
+            </div>
+
+            <div className='ether_logo whitebox'>
+              <div className='circle purple'><img src={plus} alt="plus icon"/></div>
+              <a href="#">Top Up Balance </a>
+            </div>
+
+
+
+          </div>
+
         </nav>
       </div>
 
-      <div className='imageBox'>
-        
-      </div>
+     
 
     </div>
   )

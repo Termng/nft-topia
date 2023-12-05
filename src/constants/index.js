@@ -158,3 +158,71 @@ export const auctions =[
     },
 
 ]
+
+
+
+// CryptoCanvasCreator
+// PixelPioneerX
+// NFTVisionaryVibe
+// EtherArtistEve
+// DigiArtEnthusiast
+// TokenTroveTinker
+// VirtualVividVibes
+// BlockchainBrush
+// ArtEonExplorer
+
+const myCreators = [
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+   { 
+    Name: "Michael Knowles",
+    Username: 'ArtfulAdventurer',
+    ProfilePic: creator10
+   },
+  
+
+
+]

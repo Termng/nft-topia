@@ -6,7 +6,7 @@ import { auctions } from '../constants'
 
 const Auctions = () => {
   return (
-    <div>
+    
   <div>
   
         <div className={style.uppercat}>
@@ -29,11 +29,9 @@ const Auctions = () => {
 
 
 
-      This is the creators section oo
 
 
-     
-    </div>
+
   )
 }
 
