@@ -77,10 +77,10 @@ export const CardWallet = [
 
 export const auctions =[
     {
-        imgURL: alien,
-        Name: "The alienist",
+        imgURL: camel,
+        Name: "Woke Camel",
         Likes: "21.5k",
-        artistPic: creator,
+        art: creator9 ,
         username: "@martyb43",
         price: "12.4"
     },
@@ -88,7 +88,7 @@ export const auctions =[
         imgURL: pastelMonkey,
         Name: "Smiling Ape",
         Likes: "4.7k",
-        artistPic: creator4,
+        art: creator4 , 
         username: "@ghostre3",
         price: "17.6"
     },
@@ -96,7 +96,7 @@ export const auctions =[
         imgURL: astronaut,
         Name: "SpaceMan",
         Likes: "120.5k",
-        artistPic: creator5,
+        art: creator5 ,
         username: "@echocre2",
         price: "7.9"
     },
@@ -104,7 +104,7 @@ export const auctions =[
         imgURL: blingcamel,
         Name: "Blinging",
         Likes: "9.12k",
-        artistPic: creator10,
+        art: creator10,
         username: "@fortemorte",
         price: "17.4"
     },
@@ -112,7 +112,7 @@ export const auctions =[
         imgURL: cute,
         Name: "Circa21",
         Likes: "12.1k",
-        artistPic: creator6,
+        art: creator6,
         username: "@vespa",
         price: "98.3"
     },
@@ -120,7 +120,7 @@ export const auctions =[
         imgURL: lion,
         Name: "Terra Leo",
         Likes: "12.1k",
-        artistPic: creator9,
+        art: creator9,
         username: "@torah123",
         price: "43.2"
     },
@@ -128,15 +128,15 @@ export const auctions =[
         imgURL: scrow,
         Name: "Escrow $$1",
         Likes: "12.3k",
-        artistPic: creator7,
+        art: creator7,
         username: "@jenny12",
         price: "4.98"
     },
     {
         imgURL: warthog,
-        Name: "The alienist",
+        Name: "King_Wart",
         Likes: "21.5k",
-        artistPic: creator8,
+        art: creator8,
         username: "@felixr5",
         price: "12.4"
     },
@@ -144,7 +144,7 @@ export const auctions =[
         imgURL: skull,
         Name: "The Krolls",
         Likes: "230.5k",
-        artistPic: creator2,
+        art: creator2,
         username: "@aman32",
         price: "12.4"
     },
@@ -152,7 +152,7 @@ export const auctions =[
         imgURL: girl2,
         Name: "Circa Munica",
         Likes: "12.8",
-        artistPic: creator3,
+        art: creator3,
         username: "@frwer",
         price: "12.4"
     },

@@ -142,7 +142,8 @@ main{
   display: flex; /* Use flexbox to align items */
   align-items: center; /* Align items vertically in the center */
   text-decoration: none; /* Remove default link underline */
-  color: var(--text-color)
+  color: var(--text-color);
+  font-size: .85rem;
 }
 
 .flexbar-icon img {
@@ -152,4 +153,9 @@ main{
 
 .Search{
   padding-block:1.4rem;
+}
+
+
+.productSizing{
+  max-width: 800px;
 }

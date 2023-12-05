@@ -14,6 +14,8 @@ import pastelMonkey from './pastelMonkey.jpg'
 import scrow from './scrow.jpg'
 import skull from './skull.jpg'
 import warthog from './warthog.jpg'
+import gradient from './gradient.png'
+
 
 
 
@@ -46,10 +48,6 @@ export{
     scrow,
     skull,
     warthog,
-
-
-
-
     creator,
     creator2,
     creator3,
@@ -59,7 +57,8 @@ export{
     creator7,
     creator8,
     creator9,
-    creator10
+    creator10,
+    gradient
     
 
 }

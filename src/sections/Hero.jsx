@@ -4,13 +4,12 @@ import { CardWallet } from '../constants'
 import style from '../components/Hero.module.css'
 import WalletCard from '../components/WalletCard'
 
+
 const Hero = () => {
   return (
     <div>
       <div className={style.container}>
-
         <div className={style.box_container}>
-          <video src=""></video>
           <p>Discover, Create and Sell Your Own NFT.</p>
           <div className={style.hero_button}>
             <a href="#">Discover</a>

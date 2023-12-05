@@ -3,7 +3,6 @@ import Creator from './Creator'
 import Hero from './Hero'
 import Nav from './Nav'
 import Search from './Search'
-import Wallet from './Wallet'
 
 
 export {
@@ -12,5 +11,4 @@ export {
     Hero,
     Nav,
     Search,
-    Wallet
 }

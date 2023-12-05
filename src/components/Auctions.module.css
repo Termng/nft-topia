@@ -1,0 +1,134 @@
+:root{
+    --text-color: #514f4f;
+    --accent-color: #5429FF
+  }
+
+
+.uppercat{
+    display: flex;
+    align-items: last baseline;
+    justify-content: flex-start;
+    gap: 18rem;
+    margin-block: 3rem;
+
+}
+
+
+.cat{
+    display: flex;
+    gap: 2rem;
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: .9rem;
+}
+
+.card_flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+    column-gap: 5rem;
+
+}
+
+
+
+/* THIS IS THE STYLE FOR THE SUB-COMPONENT */
+
+.card{
+    max-width: 348px;
+    height: 364px;
+    /* background-color: green; */
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: flex-start;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.image{
+    max-width: 324px;
+    width: 100%;
+    height: 196px;
+    
+    
+}
+
+.myimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    
+    object-fit: cover;
+
+}
+
+.prodName{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-evenly;
+    gap: 7.5rem;
+}
+
+.prodName p, .creator_name p {
+    font-size: .9rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.creator_name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.creator{
+    aspect-ratio: 1/1;
+    width: 27px;
+    height: 27px;
+}
+
+
+
+.creator img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+.current_price{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    justify-content: space-evenly;
+}
+
+.current_price p{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+
+.ether_price{
+    display: flex;
+    gap: 1rem;
+}
+
+.ether_price p{
+    font-weight: 800;
+    font-size: 1.6;
+}
+
+.ether_price p span{
+    font-weight: 300;
+    font-size: .9rem;
+}

@@ -1,5 +1,5 @@
 import './App.css';
-import {Auctions, Creator, Hero, Nav, Search, Wallet} from './sections'
+import {Auctions, Creator, Hero, Nav, Search} from './sections'
 
 import React from 'react'
 
@@ -19,11 +19,8 @@ const App = () => {
                <Hero/>
             </section>
          
-            <section>
-               <Wallet/>
-            </section>
-         
-            <section>
+      
+            <section className='productSizing'>
                <Auctions/>
             </section>
          
