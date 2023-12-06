@@ -18,8 +18,9 @@ const Creator = () => {
       <ol className={style.list}>
           {myCreators.map((people) => (
             
-          <li >
-            <CreatorCards key={people.Name} {...people}/>
+          <li className={style.clist}>
+            <CreatorCards key={people.Name} {...people}/> 
+            <p>Follow</p>
           </li>
           ))}
       </ol>

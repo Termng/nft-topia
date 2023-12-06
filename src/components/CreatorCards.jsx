@@ -13,13 +13,13 @@ const CreatorCards = ({Name, Username, ProfilePic}) => {
                 src={ProfilePic}
                 alt="" />
             </div>
-            <div>
+            <div className={style.text_title}>
                 <h3>{Name}</h3>
                 <p>@{Username}</p>
             </div>
         </div>
 
-        <p>Follow</p>
+     
 
 
 

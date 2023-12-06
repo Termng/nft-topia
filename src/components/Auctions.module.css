@@ -140,5 +140,15 @@
         flex-wrap: wrap;
         /* background-color: red; */
     }
+    .card_flex{
+        justify-content: center;
+        
+    }
+    .cat{
+        display: none;
+    }
+    .uppercat{
+        justify-content: center;
+    }
     
 }

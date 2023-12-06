@@ -145,6 +145,17 @@
     
 }
 
+
+@media (max-width:874px) {
+    .box_container{
+        margin-inline: 2rem;
+
+    }
+
+    
+}
+
+
 @media (max-width: 700px) {
     .box_flex{
         flex-wrap: wrap;

@@ -24,22 +24,7 @@ const Hero = () => {
           <WalletCard key={mywallet.Name} {...mywallet}/>
         ))}
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
       </div>
     </div>
   )

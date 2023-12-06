@@ -7,13 +7,14 @@
 .search_bar{
     display: flex;
     align-items: center;
-    gap: 29rem;
-    justify-content: space-evenly;
+    gap: 17rem;
+    justify-content:left;
 }
 
 
   .searchbox_icon{
     display: flex;
+    justify-content: left;
     gap: 2rem;
 }
 
@@ -29,6 +30,10 @@
 .searchbox::placeholder{
    font-weight: 200;
    font-size: 1rem;
+}
+
+.logo_shown{
+    display: none;
 }
 
 
@@ -75,6 +80,10 @@
     border-radius: 50%;
 }
 
+.sear{
+    display: block;
+}
+
 @media (max-width: 1500px) {
     .searchbox{
         display: none;
@@ -83,4 +92,20 @@
         display: none;
     }
     
+}
+
+@media (max-width: 1352px) {
+    .logo_shown{
+        display: block;
+    }
+
+    .search_bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .not_prof img{
+        display: none;
+    }
+
 }

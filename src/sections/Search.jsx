@@ -1,6 +1,6 @@
 import React from 'react'
-import index, { bell, search } from '../assets/icons'
-import { creator2 } from '../assets/images'
+import index, { bell, search, logo} from '../assets/icons'
+import { creator7 } from '../assets/images'
 import styles from '../components/Search.module.css'
 
 
@@ -9,7 +9,8 @@ const Search = () => {
   return (
     <div className={styles.search_bar} >
       <div className={styles.searchbox_icon}>
-        <img src={search} alt="search icon" />
+        <img className={styles.logo_shown} src={logo} alt="logo" />
+        <img className={styles.sear} src={search} alt="search icon" />
         <input
         className={styles.searchbox}
         type="text"
@@ -27,7 +28,7 @@ const Search = () => {
           src={bell}
           alt="notifications" />
           <div className={styles.circle_profile}>
-            <img src={creator2} alt="loggedinUser"/>
+            <img src={creator7} alt="loggedinUser"/>
           </div>
         </div>
       </div>
